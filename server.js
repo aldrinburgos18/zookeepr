@@ -4,7 +4,7 @@ const app = express();
 const { animals } = require('./data/animals');
 
 function findById(id, animalsArray) {
-    const result = animalsArray.filter(animal => animal.id === id) [0];
+    const result = animalsArray.filter(animal => animal.id === id)[0];
     return result;
 }
 
